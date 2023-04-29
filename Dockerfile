@@ -16,8 +16,8 @@ COPY . .
 # Build the production version of the application
 RUN npm run build
 
-# Expose port 80 for the application
-EXPOSE 80
+# Expose port 3000 for the application
+EXPOSE 3000
 
 # Define the command to start the application
 CMD ["npm", "start"]
